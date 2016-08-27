@@ -28,11 +28,9 @@ body::before {
 }
 
 #logo {
-    position: relative;
-    z-index: 1;
-    background: url("../image/logo.svg") no-repeat;
-    background-size: 100% 100%;
-    padding-top: 203px;
-    width: 224px;
-    height: 82px;
+    background: url("../image/logo.svg") no-repeat center bottom;
+    background-size: 224px 82px;
+    height: 185px;
 }
+
+/*css2.0 css3.0*/
