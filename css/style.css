@@ -18,19 +18,57 @@ body::before {
 }
 
 #logo,
-#title,
-#content,
-#nav {
+#title {
     width: 650px;
     margin: auto;
     height: 200px;
-    background: #ddd;
 }
 
 #logo {
     background: url("../image/logo.svg") no-repeat center bottom;
     background-size: 224px 82px;
     height: 185px;
+}
+
+#title {
+    height: 65px;
+}
+
+#content {
+    margin: auto;
+    width: 648px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#form {
+    height: 242px;
+}
+
+#nav {
+    padding: 16px;
+    background: #f7f7f7;
+    height: 18px;
+    border-top: 1px solid #ddd;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    list-style: none;
+    /*float: left;*/
+    display: inline-block; /*行内块*/
+}
+
+ul li a:link {
+    color: rgba(175, 175, 175, 0.952941);
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
 }
 
 /*css2.0 css3.0*/
