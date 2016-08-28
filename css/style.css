@@ -46,9 +46,9 @@ body::before {
 }
 
 #nav {
-    padding: 16px;
+    padding: 14px 0 16px;
     background: #f7f7f7;
-    height: 18px;
+    height: 20px;
     border-top: 1px solid #ddd;
 }
 
@@ -58,17 +58,23 @@ ul {
 
 ul li {
     list-style: none;
-    /*float: left;*/
-    display: inline-block; /*行内块*/
+    margin-right: 16px;
+    display: inline-block; /*行内块，当前 inline 即可*/
 }
 
 ul li a:link {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
     color: rgba(175, 175, 175, 0.952941);
     text-decoration: none;
 }
 
 ul li a:hover {
     text-decoration: underline;
+}
+
+ul li:last-child {
+    margin-right: 0;
 }
 
 /*css2.0 css3.0*/
